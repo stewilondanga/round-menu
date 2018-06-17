@@ -217,3 +217,8 @@ opacity: 0.5;
     transform: rotate(-20deg) translateY(-155px) rotate(20deg);
     transition-delay: 0.2s;
 }
+
+#menu:target>.menu-item:nth-child(4) {
+    transform: rotate(-60deg) translateY(-150px) rotate(60deg);
+    transition-delay: 0.3s;
+}
