@@ -143,3 +143,8 @@ h1 {
     list-style: none;
     font-size: 200%;
 }
+
+.menu-button {
+    opacity: 0;
+    z-index: -1;
+}
