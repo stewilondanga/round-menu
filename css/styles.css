@@ -189,3 +189,8 @@ h1 {
     z-index: -2;
     transition: .5s;
 }
+
+.menu-item:hover{
+opacity: 0.5;
+  box-shadow: 0 5px 10px black;
+}
