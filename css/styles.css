@@ -134,17 +134,31 @@ h1 {
 }
 
 #menu {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -75px 0 0 -75px;
-    list-style: none;
-    font-size: 200%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -75px 0 0 -75px;
+  list-style: none;
+  font-size: 200%;
 }
 
 .menu-button {
-    opacity: 0;
-    z-index: -1;
+  opacity: 0;
+  z-index: -1;
+}
+
+.menu-button {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  background: #424242;
+  background-size: 100%;
+  overflow: hidden;
+  text-decoration: none;
 }
